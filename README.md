@@ -103,6 +103,6 @@ Run: python setup.py install.  In python: import pydicom
 10 install pydicom 
    you can use 
      python -m pip install pydicom 
-
+   in the command prompt
 
 
