@@ -36,7 +36,11 @@ In our case, it is C:\Users\Username\AppData\Local\Programs\Python\Python37 sinc
 
 3. first check if pip was installed in your windows.Pip is a powerful package management system for Python software packages. Thus, make sure that you have it installed.
 
-4.open terminal or command prompt and enter pip -v in the console.If pip was installed , you should see the pip version 
+4.open terminal or command prompt and enter 
+
+pip -v  
+
+the console.If pip was installed , you should see the pip version 
 
 Pip has not been installed yet if you get the following output:
     'pip' is not recognized as an internal or external command.
@@ -53,7 +57,9 @@ Download the file to a temporary folder in Windows or to the “Downloads” lib
        To install pip type python get-pip.py
 
    to check pip :
-    type pip --version this will report pip version.
+    type 
+    
+    pip --version this will report pip version.
 
 and configure the pip 
  On Windows, the configuration file is: %HOME%\pip\pip.ini.
@@ -76,8 +82,9 @@ Instead of this: C:/Python34/Python script.py
 7. install numpy and matplotlib
    open a cmd window like before. Use the next set of commands to install NumPy and Matplotlib:
 
-python - pip install numpy 
-python -m pip install matplotlib
+
+  python - pip install numpy 
+ python -m pip install matplotlib
  
 after installing check version (matplotlib is optinal)
 
@@ -88,6 +95,7 @@ after installing check version (matplotlib is optinal)
 
 9. install difflib 
   you can use 
+  
               apt-get install npm
 
               npm install difflib
