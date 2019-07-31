@@ -27,8 +27,7 @@ def print_attributes2(dss):
 def compare_images(ds,dss):
     """ ploting the difference between images """
 
-    #reqatt = [ds.PatientName,ds.Rows,ds.Columns]
-    #reqatt2 = [dss.PatientName,dss.Rows,dss.Columns]
+   
 
     datasets = tuple([(filename)
                       for filename in (ds, dss)])
