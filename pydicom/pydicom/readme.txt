@@ -21,7 +21,7 @@ This is the summary for contributing code, testing ,reading, and for issues. Ple
 difflib :
 This is a class for comparing sequences of lines of text, and producing human-readable differences or deltas
 
-os :The OS module in python provides functions for interacting with the operating system. OS, comes under Python’s standard utility modules. This module provides a portable way of using operating system dependent functionality.and helps to read the link we have given.
+os :The OS module in python provides functions for interacting with the operating system. OS, comes under Pythonâ€™s standard utility modules. This module provides a portable way of using operating system dependent functionality.and helps to read the link we have given.
 
 
  utility.py
@@ -42,6 +42,12 @@ In this python file we used : pydicom
   it prints the attributes of image two
 3.compare
 
- in compare if you want to print the attributes which differ by "yes" we can print the requried attribute  
+ in compare if you want to print the attributes which differ by "yes" we can print the requried attribute 
+ 
+ 
+ 
+ 
+ in all dicom images som of them are important to be equal and the requried attributes are comapred in newutility.py
+ 
 
 
